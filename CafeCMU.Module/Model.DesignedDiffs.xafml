@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Cafe CMU">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@69eb73c5-29fc-4328-b6ab-231d5d3ad070" Caption="Quản lý" ImageName="BO_Sale_Item" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@753fa92e-bf5b-491d-aaf8-db99cf280f5c" ViewId="Sanpham_ListView" Caption="Sản phẩm" IsNewNode="True" />
+          <Item Id="@ce34489d-0e71-4ec6-aca5-b6110b79802f" ViewId="Hoadon_ListView" Caption="Hoá đơn" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>
